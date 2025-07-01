@@ -122,8 +122,8 @@ def get_youtube_credentials(channel_id=None, channel_name=None):
     
     # Channel name to Drive file ID mapping
     CHANNEL_DRIVE_LINKS = {
-        "QuickFlick": "https://drive.google.com/file/d/1oZyKXLpT-b0-FaWveb2bZczwnhAa-sKL/view?usp=sharing",
-        "ExplainoByte": "https://drive.google.com/file/d/1GagIvmKb0kDb1-a_J48bl1a0S5YzY-6p/view?usp=sharing"
+        "ExplainoByte": "https://drive.google.com/file/d/1Nqz0M9wzY6b3lheLyHeECBaa99R0cN6n/view?usp=drive_link",
+        "QuickFlick": "https://drive.google.com/file/d/1dBN1co7w65fuNIDyWKuEaHECx9ckMxSR/view?usp=drive_link"
     }
     
     if not channel_name and not channel_id:
@@ -189,8 +189,8 @@ def list_available_youtube_channels():
     """List all channels that have saved YouTube tokens on Google Drive."""
     # Channel token Google Drive links
     CHANNEL_DRIVE_LINKS = {
-        "QuickFlick": "https://drive.google.com/file/d/1oZyKXLpT-b0-FaWveb2bZczwnhAa-sKL/view?usp=sharing",
-        "ExplainoByte": "https://drive.google.com/file/d/1GagIvmKb0kDb1-a_J48bl1a0S5YzY-6p/view?usp=sharing"
+        "ExplainoByte": "https://drive.google.com/file/d/1Nqz0M9wzY6b3lheLyHeECBaa99R0cN6n/view?usp=drive_link",
+        "QuickFlick": "https://drive.google.com/file/d/1dBN1co7w65fuNIDyWKuEaHECx9ckMxSR/view?usp=drive_link"
     }
     
     print("\nAvailable YouTube Channels:")
